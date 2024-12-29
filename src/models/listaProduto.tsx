@@ -4,7 +4,7 @@ export function ListaProduto( props : any ){
             items-center w-64 bg-black p-2
             
         ">
-            <span>+ {props.nome} </span>
+            <span>+ { props.produto } </span>
             <div className="flex gap-2">
                 <button className="bg-green-600 w-7 h-7 rounded-md">+</button>
                 <button className="bg-red-600 w-7 h-7 rounded-md">-</button>
